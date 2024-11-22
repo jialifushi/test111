@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>抓阄游戏</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+</head>
+<body>
+    <div id="app">
+        <h1>抓阄游戏</h1>
+        <textarea id="input" placeholder="请输入抓阄内容，每行一个选项"></textarea>
+        <button id="start">开始抓阄</button>
+        <button id="start-config">使用配置文件抓阄</button>
+        <br>
+        <!-- 人物按钮 -->
+        <div id="characterButtons">
+            <button id="characterJia">甲</button>
+            <button id="characterYi">乙</button>
+            <button id="characterBing">丙</button>
+            <button id="characterDing">丁</button>
+        </div>
+        <!-- 人物结果展示框 -->
+        <div id="characterResults">
+            <div id="resultJia"></div>
+            <div id="resultYi"></div>
+            <div id="resultBing"></div>
+            <div id="resultDing"></div>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
